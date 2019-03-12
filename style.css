@@ -26,10 +26,12 @@ section {
 
 h2 {
   margin-top: 10px;
+  text-indent: 10px;
 }
 
 h3 {
   margin-right: 3px;
+  text-indent: 10px;
 }
 
 img {
@@ -39,10 +41,27 @@ img {
 
 li {
   list-style-type: none;
+  font-size: 110%;
+  margin-left: 4px;
 }
 
 i {
   color: #1462e0;
+}
+
+p {
+  font-size: 110%;
+  margin-left: 4px;
+}
+
+footer {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #cccccc;
+  width: 1014px;
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
 }
 
 div.page {
@@ -88,7 +107,66 @@ div.email {
 
 a.email-link {
   font-size: 120%;
-  margin-left: 10px;
+  margin-left: 20px;
   text-decoration-line: none;
   color: black;
+}
+
+.information h3 {
+  margin-top: 6px;
+}
+
+.information h2 {
+  border-top: 1px solid black;
+  padding-top: 3px;
+}
+
+.information h2.about-me {
+  border: 0;
+}
+
+.skills-line {
+  margin-left: 20px;
+  width: 72%;
+}
+
+.skills-name > ul > li {
+  margin-top: 14px;
+}
+
+.skills-bars {
+  display: flex;
+  flex-direction: row;
+}
+
+.line {
+  width: 400px;
+  margin-top: 24px;
+  background: orange;
+	height: 10px;
+}
+
+.line > div {
+	background: #1462e0;
+	height: 10px;
+}
+
+.html {
+  width: 60%;
+}
+
+.css {
+  width: 40%;
+}
+
+.js {
+  width: 40%;
+}
+
+.git {
+  width: 60%;
+}
+
+.attention {
+  width: 75%;
 }
