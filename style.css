@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -16,13 +17,79 @@ h1 {
   border: 0;
 }
 
-div.page {
-  display: flex;
-  flex-direction: row;
-}
-
 section {
   border: 1px solid #000000;
   border-radius: 5px;
   box-shadow: 2px 2px 2px #cccccc;
+  margin: 10px 5px 0px 5px;
+}
+
+h2 {
+  margin-top: 10px;
+}
+
+h3 {
+  margin-right: 3px;
+}
+
+img {
+  border: 1px solid #000000;
+  border-radius: 50%;
+}
+
+i {
+  color: #1462e0;
+}
+
+div.page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1024px;
+  margin: 0px auto;
+}
+
+section.profile {
+  width: 30%;
+}
+
+section.information {
+  width: 70%;
+}
+
+div.avatar {
+  display: flex;
+  justify-content: center;
+}
+
+.name h2 {
+  text-align: center;
+}
+
+li.phone-number {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.social ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+li.social-link {
+  list-style-type: none;
+  margin: 0px 2px;
+}
+
+div.email {
+  margin-bottom: 10px;
+}
+
+a.email-link {
+  font-size: 120%;
+  margin-left: 10px;
+  text-decoration-line: none;
+  color: black;
 }
