@@ -37,6 +37,10 @@ img {
   border-radius: 50%;
 }
 
+li {
+  list-style-type: none;
+}
+
 i {
   color: #1462e0;
 }
@@ -76,11 +80,6 @@ li.phone-number {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-}
-
-li.social-link {
-  list-style-type: none;
-  margin: 0px 2px;
 }
 
 div.email {
